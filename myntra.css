@@ -1,430 +1,413 @@
 * {
-    margin: 0px;
-    padding: 0px;
-    color: black;
+  margin: 0px;
+  padding: 0px;
+  color: black;
 }
 
 .header {
-display: grid;
-gap: 0;
-grid-template-columns: repeat(9, 1fr);
-align-items: center;
-background-color: whitesmoke;
-padding: 10px 15px;
-width: 100%;
-justify-content: center
-
+  display: grid;
+  gap: 0;
+  grid-template-columns: repeat(9, 1fr);
+  align-items: center;
+  background-color: whitesmoke;
+  padding: 10px 15px;
+  width: 100%;
+  justify-content: center;
 }
 
 #mintralogo {
-    height: 60px;
-    background-color: rgb(160, 160, 250);
-    margin: 0px;
- 
+  height: 60px;
+  background-color: rgb(160, 160, 250);
+  margin: 0px;
 }
 
 a {
-  
-    text-decoration: none;
-    font-size: 16px; }
-
+  text-decoration: none;
+  font-size: 16px;
+}
 
 #searchbox {
+  padding: 3px;
+  width: 300px;
+  border-radius: 4px;
+  height: 25px;
+  border: 1px solid rgba(176, 176, 176, 0.641);
+  background-color: rgb(255, 255, 255);
+}
+
+#searchbtn {
+  width: 60px;
+  border-radius: 4px;
+  background-color: rgba(193, 201, 249, 0.442);
+  height: 30px;
+  margin-left: 5px;
+}
+
+.svgimg {
+  height: 25px;
+  justify-content: center;
+  margin: 0px 5px;
+}
+
+.svg {
+  width: 160px;
+  padding: 10px;
+}
+
+/* slider.................... */
+
+.sliderimg {
+  height: 300px;
+  width: 97%;
+  box-shadow: 0px 1px 10px rgba(155, 155, 245, 0.799);
+  margin: auto;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+/* Deals of the day..... */
+
+.dealstoday,
+.exclusive,
+.luxewear,
+.child {
+  display: grid;
+  gap: 0px;
+  grid-template-columns: repeat(8, 1fr);
+  padding: 15px;
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1);
+  margin: 30px 0px;
+  cursor: pointer;
+}
+
+.dealstodayitems {
+  height: 220px;
+  margin: auto;
+}
+
+.exclusiveitem,
+.luxewearitem {
+  height: 215px;
+  margin: auto;
+}
+
+.childitem {
+  height: 210px;
+  margin: auto;
+}
+
+P {
+  font-size: 40px;
+  margin: 25px;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  color: rgb(107, 125, 113);
+  margin: 40px 0px 10px 0px;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+
+  place-items: center;
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+.footeritem {
+  font-size: 18px;
+  margin: 15px;
+}
+
+.footer-items-categories {
+  margin: 20px 10%;
+}
+.footer-categories-title {
+  margin: 30px auto;
+  padding-right: 10px;
+  color: #282c3f;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.flexfooter {
+  display: inline;
+  margin: 20px;
+}
+
+#applestorelogo {
+  height: 30px;
+  margin: 15px 0px;
+}
+
+#googleplay {
+  height: 29px;
+  margin: 15px 0px;
+}
+
+#p2 {
+  font-size: 25px;
+  color: black;
+  margin: 20px 0px;
+}
+
+.social {
+  height: 35px;
+  margin: 5px;
+}
+
+@media (max-width: 840px) {
+  .header {
+    /* grid-template-columns: repeat(8, 1fr);
+        padding: 10px 0px; */
+  }
+
+  #mintralogo {
+    height: 40px;
+    background-color: rgb(160, 160, 250);
+    margin-left: 23px;
+  }
+
+  a {
+    text-decoration: none;
+    font-size: 14px;
+    margin: 0px 20px;
+    width: 40px;
+  }
+
+  .svgimg {
+    height: 14px;
+    justify-content: center;
+    margin: 0px px;
+  }
+
+  .svg {
+    /* box-sizing: border-box; */
+    width: 100px;
+    padding: 10px;
+  }
+
+  #searchbox {
     padding: 3px;
-    width: 300px;
+    width: 200px;
     border-radius: 4px;
     height: 25px;
     border: 1px solid rgba(176, 176, 176, 0.641);
     background-color: rgb(255, 255, 255);
+  }
 
-}
-
-#searchbtn {
-    width: 60px;
+  #searchbtn {
+    width: 50px;
     border-radius: 4px;
     background-color: rgba(193, 201, 249, 0.442);
     height: 30px;
-    margin-left: 5px;
-     
-}
+  }
 
-.svgimg {
-    height: 25px;
-    justify-content: center;
-    margin: 0px 5px;
-    }
+  .sectiontitle {
+    font-size: 22px;
+  }
 
-    .svg{
-        width: 160px;
-        padding: 10px;
-    }
-
-
-
-/* slider.................... */
-
-
-.sliderimg{
-
-    height: 300px;
-    width: 97%;
-    box-shadow: 0px 1px 10px rgba(155, 155, 245, 0.799);
-    margin: auto;
-    border-radius: 5px;
-    margin-top: 10px;
-}
-
-
-
-/* Deals of the day..... */
-
- .dealstoday, .exclusive, .luxewear, .child {
+  .dealstoday {
     display: grid;
     gap: 0px;
-    grid-template-columns: repeat(8, 1fr);
+    grid-template-columns: repeat(9, 1fr);
+    padding: 0;
+    justify-content: center;
+  }
+
+  .dealstodayitems {
+    height: 138px;
+    margin: 10px 0px;
+  }
+
+  .exclusiveitem,
+  .luxewearitem {
+    height: 130px;
+  }
+
+  .child {
     padding: 15px;
     box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.426);
-    margin: 30px 0px;
+    margin: 0px;
+  }
 
- }
-
-
-.dealstodayitems{
-    height: 220px;
+  .childitem {
+    height: 130px;
     margin: auto;
-}
+  }
 
-.exclusiveitem, .luxewearitem{
-    height: 215px;
-    margin: auto;
-}
+  .footer {
+    /* background: rgb(235, 235, 237); */
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    margin: 20px auto;
+  }
+  .flexfooter li {
+    width: 136px;
+  }
+  .footeritem {
+    font-size: 16px;
+    line-height: 5\3px;
+    margin: 30px 30px;
+  }
 
-.childitem{
-    height: 210px;
-    margin: auto; 
-}
-
-
-P {
-    font-size: 40px;
-    margin: 25px;
-    font-family: 'Times New Roman', Times, serif;
-    text-align: center;
-    color: rgb(107, 125, 113);
-    margin: 40px 0px 10px 0px;
-
-}
-
-.footer {
- 
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    background: rgb(235, 235, 237);
-    place-items: center;
-    box-sizing: border-box;
-    padding: 20px;
-   
-}
-
-.footeritem {
-    font-size: 18px; 
-    margin: 15px;  
-     
-}
-
-.flexfooter {
-    background: rgb(235, 235, 237);
+  .flexfooter {
+    /* background: rgb(235, 235, 237); */
     display: inline;
-    margin: 20px;
-}
+    margin: 0px 20px;
+  }
 
-#applestorelogo {
+  #applestorelogo {
     height: 30px;
-    margin: 15px 0px;
-}
+    margin: 40px 0px;
+  }
 
-#googleplay {
+  #googleplay {
     height: 29px;
-    margin: 15px 0px;
-}
+    margin: 40px 0px;
+  }
 
-#p2 {
+  #p2 {
     font-size: 25px;
     color: black;
-    margin: 20px 0px;
+  }
 
+  .socialsec {
+    margin: 0px 50px;
+  }
+
+  .social {
+    height: 25px;
+  }
+  .flexfooter p#p2 {
+    margin-bottom: 30px;
+    font-size: 20px;
+  }
 }
 
- .social {
-    height: 35px;
+@media (max-width: 460px) {
+  .header {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 45px 45px 45px;
+    padding: 10px;
+    box-sizing: border-box;
+    place-items: center;
+  }
+
+  .header a #mintralogo {
+    height: 40px;
+    background-color: rgb(160, 160, 250);
+    margin-left: 0px;
+  }
+
+  .header a {
+    text-decoration: none;
+    font-size: 13px;
+    margin: 0px auto;
+  }
+
+  a .headeritem1 {
+    margin-left: 50px;
+  }
+
+  .svgimg {
+    height: 14px;
+    justify-content: center;
+    margin: 0px 5px;
+  }
+
+  .svg {
+    width: 80px;
+    padding: 10px;
+  }
+
+  #searchbox {
+    padding: 3px;
+    width: 150px;
+    border-radius: 4px;
+    height: 25px;
+    border: 1px solid rgba(176, 176, 176, 0.641);
+    background-color: rgb(255, 255, 255);
+    margin-left: 20px;
+  }
+
+  #searchbtn {
+    width: 50px;
+    border-radius: 4px;
+    background-color: rgba(193, 201, 249, 0.442);
+    height: 30px;
+  }
+
+  .sectiontitle {
+    font-size: 22px;
+  }
+
+  .slider {
+    display: none;
+  }
+
+  .dealstoday,
+  .exclusive,
+  .luxewear,
+  .child {
+    display: grid;
+    gap: 0px;
+    grid-template-columns: repeat(2, 1fr);
+    place-items: center;
+  }
+  .dealstodayitems {
+    height: 138px;
+    margin: 10px 0px;
+  }
+
+  .exclusiveitem,
+  .luxewearitem,
+  .childitem {
     margin: 5px;
-}
+  }
 
-@media(max-width:840px){
-    .header{  
-        /* grid-template-columns: repeat(8, 1fr);
-        padding: 10px 0px; */
-             
-    }
+  .child {
+    padding: 15px;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.426);
+    margin: 0px;
+  }
 
-    #mintralogo {
+  .footer {
+    display: grid;
+    gap: 0px;
+    grid-template-columns: repeat(3, 1fr);
+  }
 
-    height: 40px;
-    background-color: rgb(160, 160, 250);
-    margin-left: 23px;
-    }
+  .footeritem {
+    font-size: 12px;
+    margin: 15px 0px;
+  }
 
-    a {
-        text-decoration: none;
-        font-size: 14px;
-        margin: 0px 20px;
-        width: 40px;
-         }
+  .flexfooter {
+    width: 50px;
+  }
 
-        .svgimg {
-            height: 14px;
-            justify-content: center;
-            margin: 0px px;
-            }
-        
-            .svg{
-                /* box-sizing: border-box; */
-                width: 100px;
-                padding: 10px;
-            }
+  #applestorelogo,
+  #googleplay {
+    display: none;
+  }
 
-            #searchbox {
-                padding: 3px;
-                width: 200px;
-                border-radius: 4px;
-                height: 25px;
-                border: 1px solid rgba(176, 176, 176, 0.641);
-                background-color: rgb(255, 255, 255);
-            
-            }
-     
-            #searchbtn {
-                width: 50px;
-                border-radius: 4px;
-                background-color: rgba(193, 201, 249, 0.442);
-                height: 30px;
-                 
-            }
+  .flexfooter p#p2 {
+    font-size: 12px;
+  }
 
-            .sectiontitle{
-                font-size: 22px   }
+  .socialsec {
+    margin: 0px;
+    display: grid;
+    place-items: center;
+  }
 
+  .social {
+    height: 20px;
+  }
 
-            .dealstoday{
-                display: grid;
-                gap: 0px;
-                grid-template-columns: repeat(9,1fr);
-                padding: 0;
-                justify-content: center;
-
-            }
-                    
-            .dealstodayitems{
-                height: 138px;
-                margin: 10px 0px;
-            }
-
-            .exclusiveitem, .luxewearitem{
-                
-                height: 130px;
-            }
-             
-                .child{
-               
-                    padding: 15px;
-                    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.426);
-                    margin: 0px;
-                              
-                 }
-
-                 .childitem{
-                    height: 130px;
-                    margin: auto; 
-                }
-
-
-
-                .footer {
-                    
-                    background: rgb(235, 235, 237);
-                    display: flex;
-                    /* align-items: center; */
-                    justify-content: center;
-                    margin: 20px auto;
-                
-                }
-                .flexfooter li {
-                    width: 136px;
-                }
-                .footeritem {
-                    font-size: 16px;
-                    line-height: 5\3px;
-                    margin: 30px 30px;
-                     
-                }
-                
-                .flexfooter {
-                    background: rgb(235, 235, 237);
-                    display: inline;
-                    margin: 0px 20px;
-                }
-                
-                #applestorelogo {
-                    height: 30px;
-                    margin: 40px 0px;
-                }
-                
-                #googleplay {
-                    height: 29px;
-                    margin: 40px 0px;
-                }
-                
-                #p2 {
-                    font-size: 25px;
-                    color: black;
-                }
-                
-                .socialsec {
-                    margin: 0px 50px;
-                }
-                
-                .social {
-                    height: 25px;
-                }
-                .flexfooter p#p2{
-                    margin-bottom: 30px;
-                    font-size: 20px;
-                }
-          
-}
-
-
-@media(max-width:460px){
-    .header{  
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: 45px 45px 45px;
-        padding: 10px;  
-        box-sizing: border-box;    
-        place-items: center;
-    }
-
-    .header a #mintralogo {
-
-    height: 40px;
-    background-color: rgb(160, 160, 250);
- margin-left: 0px;
-    }
-
-   .header a {
-        text-decoration: none;
-        font-size: 13px;
-        margin: 0px auto;
- 
-         }
-
-       a .headeritem1 {
-            margin-left: 50px;
-
-         }
- 
-        .svgimg {
-            height: 14px;
-            justify-content: center;
-            margin: 0px 5px;}
-        
-            .svg{
-                width: 80px;
-                padding: 10px; }
-
-            #searchbox {
-                padding: 3px;
-                width: 150px;
-                border-radius: 4px;
-                height: 25px;
-                border: 1px solid rgba(176, 176, 176, 0.641);
-                background-color: rgb(255, 255, 255);
-                margin-left: 20px; }
-     
-            #searchbtn {
-                width: 50px;
-                border-radius: 4px;
-                background-color: rgba(193, 201, 249, 0.442);
-                height: 30px;
-                 
-            }
-
-            .sectiontitle{
-                font-size: 22px   }
- 
-                .slider {
-                    display: none
-              
-                }
-
-            .dealstoday, .exclusive, .luxewear, .child {
-                display: grid;
-                gap: 0px;
-                grid-template-columns: repeat(2,1fr);
-                 place-items: center;
-               }
-               .dealstodayitems{
-                height: 138px;
-                margin: 10px 0px;
-            }
-             
-              .exclusiveitem, .luxewearitem, .childitem{
-                margin: 5px;
-                
-            }
-             
-                .child{               
-                    padding: 15px;
-                    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.426);
-                    margin: 0px;}
-
-                    .footer{
-                        display: grid;
-                        gap: 0px;
-                        grid-template-columns: repeat(3, 1fr)
-                    }
-
-                .footeritem {
-                    font-size: 12px;
-                    margin: 15px 0px;
-                    
-                }
-                
-                .flexfooter {
-                   width: 50px;
-                
-                }
-                
-                #applestorelogo, #googleplay {
-                    display: none;
-                }
-
-         
-             .flexfooter p#p2 {
-             
-                font-size: 12px;
-                }
-                
-              .socialsec {
-                    margin: 0px;
-                    display: grid;
-                    place-items: center;
-                }
-                
-                .social {
-                    height: 20px;
-                }
-               
-                .socialsec a {
-                    margin-left: 8px;
-                }
+  .socialsec a {
+    margin-left: 8px;
+  }
 }
